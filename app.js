@@ -16,6 +16,7 @@ const bookingRouter = require('./routes/bookingRoutes');
 const AppError = require('./utils/appError');
 const golbalErrorHandler = require('./controllers/errorController');
 
+//Start Express app
 const Express = express;
 const app = new Express();
 
